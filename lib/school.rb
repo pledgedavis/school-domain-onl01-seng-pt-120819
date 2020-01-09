@@ -20,11 +20,12 @@ def add_student(name, grade)
   
 end
   def sort
-    binding.pry
+    # binding.pry
   # empty_hash ={}
-  @roster[@roster] = grade
+  @roster.each do |grade, names|
+  @roster[grade] = names.sort
   
-  
+end
 end
 end
 end
