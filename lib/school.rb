@@ -1,4 +1,5 @@
 # code here!
+require 'pry'
 class School
   attr_accessor :roster 
   def initialize(name)
@@ -19,8 +20,9 @@ def add_student(name, grade)
   
 end
   def sort
-  empty_hash ={}
-  empty_hash[@name] = grade
+    binding.pry
+  # empty_hash ={}
+  @roster[@roster] = grade
   
   
 end
